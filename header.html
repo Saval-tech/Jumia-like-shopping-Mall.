@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scottish Mall Header</title>
+    <base target="_parent">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="topbar">
+            <!-- Logo Section -->
+            <a class="logo" href="index.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>Scottish Mall</span>
+            </a>
+
+            <!-- Preserved Navigation URLs Section -->
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="shop.html">Categories</a>
+                <a href="shop.html">Deals</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+
+            <!-- Search Bar -->
+            <form class="search" action="shop.html">
+                <input type="search" placeholder="Search for products, brands and more..." aria-label="Search">
+                <button type="submit" aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+
+            <!-- Header Action Icons (Wishlist, Account, Cart with Badge) -->
+            <div class="header-actions">
+                <a href="shop.html" title="Wishlist" class="wishlist-icon">
+                    <i class="fa-regular fa-heart"></i>
+                </a>
+                <a href="login.html" title="Account" class="account-icon">
+                    <i class="fa-regular fa-user"></i>
+                    <span>Account</span>
+                </a>
+                <a href="cart.html" title="Cart" class="cart-link">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>Cart</span>
+                    <b>3</b>
+                </a>
+            </div>
+
+            <!-- Mobile Menu Toggle Button -->
+            <div class="menu-button" aria-label="Navigation menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>

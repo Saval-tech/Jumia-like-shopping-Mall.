@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Scottish Mall - Checkout</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body data-page="checkout.html">
+<header class="site-header">
+  <div class="utility-bar"><div class="header-shell"><span><i class="fa-solid fa-truck-fast"></i> Everyday essentials, delivered</span><span><i class="fa-solid fa-shield-halved"></i> Shop securely · Prices in ₦</span></div></div>
+  <div class="header-shell main-header">
+    <a class="logo" href="index.html" aria-label="Scottish Mall home"><span class="logo-mark"><i class="fa-solid fa-bag-shopping"></i></span><span>scottish<span class="logo-accent">mall</span><small>GOOD FINDS. EVERY DAY.</small></span></a>
+    <form class="search" action="shop.html" method="get"><input type="search" name="q" placeholder="Search products, brands and more…" aria-label="Search products"><button type="submit" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button></form>
+    <div class="header-actions"><a href="shop.html" aria-label="Wishlist"><i class="fa-regular fa-heart"></i><span>Wishlist</span></a><a href="login.html"><i class="fa-regular fa-user"></i><span>Account</span></a><a class="cart-link" href="cart.html"><i class="fa-solid fa-bag-shopping"></i><span>Cart</span><b>3</b></a></div>
+    <label class="menu-button" for="mall-menu-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></label>
+  </div>
+  <input class="menu-toggle" type="checkbox" id="mall-menu-toggle">
+  <div class="nav-band"><nav class="nav header-shell" aria-label="Main navigation"><a href="index.html" data-page="index.html"><i class="fa-solid fa-house"></i> Home</a><a href="shop.html" data-page="shop.html">Shop all</a><a href="shop.html#categories">Categories</a><a href="shop.html#deals">Deals <span class="nav-pill">HOT</span></a><a href="about.html" data-page="about.html">Our story</a><a href="contact.html" data-page="contact.html">Contact</a><a class="mobile-account" href="login.html">Sign in / Register</a></nav></div>
+</header>
+    <div class="page">
+        <main class="main">
+            <div class="breadcrumbs">Home / Cart / Checkout</div>
+            <h1>Checkout</h1>
+            <div class="checkout-layout">
+                <section class="checkout-form">
+                    <div class="checkout-card">
+                        <h2>1. Shipping Information</h2><label>Full Name<input type="text"
+                                placeholder="Enter your full name"></label><label>Address<input type="text"
+                                placeholder="Enter your address"></label>
+                        <div class="two"><label>City<input type="text"
+                                    placeholder="Enter city"></label><label>State<select>
+                                    <option>Select state</option>
+                                    <option>Rivers</option>
+                                    <option>Lagos</option>
+                                    <option>Abuja</option>
+                                </select></label></div><label>Phone Number<input type="tel"
+                                placeholder="Enter phone number"></label>
+                    </div>
+                    <div class="checkout-card">
+                        <h2>2. Payment Method</h2><label class="radio"><input type="radio" name="payment" checked>
+                            <span>Credit / Debit Card <b>VISA · Mastercard</b></span></label><label class="radio"><input
+                                type="radio" name="payment"> <span>Pay on Delivery <small>Cash or card at your
+                                    doorstep</small></span></label><label class="radio"><input type="radio"
+                                name="payment"> <span>Bank Transfer <small>Direct bank transfer</small></span></label>
+                    </div>
+                </section>
+                <aside class="summary">
+                    <h2>Order Summary</h2>
+                    <div class="summary-product"><img loading="lazy"
+                            src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=200&q=80"
+                            alt=""><span>Samsung Galaxy A55<br><small>₦180,000 ×
+                                1</small></span><strong>₦180,000</strong></div>
+                    <div class="summary-product"><img loading="lazy"
+                            src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=200&q=80"
+                            alt=""><span>Wireless Earbuds<br><small>₦25,000 × 1</small></span><strong>₦25,000</strong>
+                    </div>
+                    <div class="summary-product"><img loading="lazy"
+                            src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=200&q=80"
+                            alt=""><span>Travel Backpack<br><small>₦18,000 × 1</small></span><strong>₦18,000</strong>
+                    </div>
+                    <hr>
+                    <div><span>Subtotal</span><strong>₦223,000</strong></div>
+                    <div><span>Shipping</span><strong>₦3,000</strong></div>
+                    <div class="total"><span>Total</span><strong>₦226,000</strong></div><button class="btn"
+                        type="button"><i class="fa-solid fa-lock"></i> Place Order</button>
+                    <p class="secure"><i class="fa-solid fa-shield-halved"></i> Your payment is secure and encrypted.
+                    </p>
+                </aside>
+            </div>
+        </main>
+    </div>
+<footer class="site-footer"><div class="footer-main"><div class="footer-brand"><a class="logo footer-logo" href="index.html"><span class="logo-mark"><i class="fa-solid fa-bag-shopping"></i></span><span>scottish<span class="logo-accent">mall</span><small>GOOD FINDS. EVERY DAY.</small></span></a><p>Your everyday marketplace for smart finds, thoughtful gifts and little upgrades that make life better.</p><div class="social-links"><a href="contact.html" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a href="contact.html" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="contact.html" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a></div></div><div><h3>Explore</h3><a href="shop.html">Shop all</a><a href="shop.html#deals">Weekly deals</a><a href="shop.html#categories">Categories</a><a href="product.html">Featured product</a></div><div><h3>Help & support</h3><a href="contact.html">Contact us</a><a href="about.html">About Scottish Mall</a><a href="cart.html">Your cart</a><a href="login.html">My account</a></div><div class="newsletter"><h3>Good things in your inbox</h3><p>Get new arrivals, useful finds and occasional offers. No clutter.</p><form action="contact.html"><label class="sr-only" for="newsletter-email">Email address</label><input id="newsletter-email" type="email" placeholder="Your email address" required><button type="submit" aria-label="Subscribe"><i class="fa-solid fa-arrow-right"></i></button></form><small>By subscribing, you agree to receive store updates.</small></div></div><div class="footer-bottom"><span>© 2026 Scottish Mall. All rights reserved.</span><span><i class="fa-solid fa-lock"></i> Shopping made simple and secure</span><span>Prices shown in Nigerian naira (₦)</span></div></footer>
+</body>
+
+</html>
